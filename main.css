@@ -1,0 +1,81 @@
+.body {
+    margin: 10px;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    float: left;
+    padding: 0 70px;
+    background-color: #101010;
+    text-align: justify;
+}
+
+.navigation a li {
+    vertical-align: middle;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation a:hover {
+    background-color: gray;
+    color: #101010;
+}
+
+.logo-container {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0 20px;
+    background-color: #101010;
+    color: white;
+}
+
+.inner-header {
+    height: 100%;
+    float: left;
+    padding: 0 20px;
+    background-color: #101010;
+    color: white;
+}
+
+
+.shadow-text {
+    color: #f66d52; /* Цвет  текста */
+    font-size: 2em; /* Размер  текста */
+    font-weight: bold;
+    padding: 20px 0;
+    text-transform: uppercase;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.shadow-text:hover {
+    color: #f5f2ee; /* Меняем цвет текста */
+    -webkit-text-shadow: 2px 2px 2px #000;
+    -moz-text-shadow: 2px 2px 2px #000;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.content img {
+    float: right; /* Обтекание картинки по левому краю */
+    padding-left: 10px; /* Отступ слева */
+    padding-bottom: 10px; /* Отступ снизу */
+    clear: both;
+    margin: 0 0 10px 10px;
+}
+
+.header {
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+    margin-left: -20px;
+    margin-top: -20px;
+    float: left;
+    background-color: #101010;
+}
